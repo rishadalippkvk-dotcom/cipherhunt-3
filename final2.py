@@ -917,10 +917,10 @@ QUESTIONS: List[Dict] = [
     {
         "question": "🔍 i roar when silence falls .(2 words)",
         "answer": answers["level_1_answer"],
-        "security_riddle": "The action never lies",
+        "security_riddle": "The action never lies.(🛑 Be carefull 🛑)",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Think of a place where power is generated.",
-        "security_hint": "💡 He is the creator of Linux kernel.",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
         "category": "FOSS History",
         "difficulty": "easy",
         "points": 10
@@ -930,8 +930,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_2_answer"],
         "security_riddle": "I have a mouth but I don't have tongue",
         "security_key": answers["level_2_security_key"],
-        "hint": "💡 Think of a place where water flows down.",
-        "security_hint": "💡 They are the founders of Google.",
+        "hint": "💡 Hint:starts with d and ends with e",
+        "security_hint": "No hints are available",
         "category": "Tech Founders",
         "difficulty": "medium",
         "points": 15
@@ -941,9 +941,9 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "I bent but don’t fall",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Think of an entrance point.",
-        "security_hint": "💡 He is the inventor of the World Wide Web.",
-        "category": "Web History",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "No hints are available",
         "difficulty": "medium",
         "points": 15
     },
@@ -952,8 +952,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_4_answer"],
         "security_riddle": "No path will lead you straight to me",
         "security_key": answers["level_4_security_key"],
-        "hint": "💡 Think of a place where people gather in a college.",
-        "security_hint": "💡 He is the CEO of NVIDIA.",
+        "hint": "💡 First word starts with 'c' and second word also starts with 'c'(second word has 6 letters)",
+        "security_hint": "No hints areavailable",
         "category": "Tech Leaders",
         "difficulty": "medium",
         "points": 15
@@ -963,8 +963,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "Everyone passes me and I welcome strangers without knowing their name",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Think of a place where you are greeted when entering a building.",
-        "security_hint": "💡 It's one of the oldest programming languages.",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
         "category": "Programming Languages",
         "difficulty": "medium",
         "points": 15
@@ -974,8 +974,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Think of a place where people eat in a school or office.",
-        "security_hint": "💡 It's a JavaScript debugging function.",
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
         "category": "Programming",
         "difficulty": "hard",
         "points": 20
@@ -3544,4 +3544,5 @@ st.markdown("""
     <p style="font-size: 1rem;">Celebrating Open Source • Building Digital Freedom</p>
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
+
 """, unsafe_allow_html=True)
