@@ -16,7 +16,7 @@ level_3_answer = "Gate"
 level_3_security_key = "Sir Timothy John Berners-Lee"
 
 # Level 4
-level_4_answer = "College Center"
+level_4_answer = "Collage Center"
 level_4_security_key = "Jensen Huang"
 
 # Level 5
@@ -25,4 +25,5 @@ level_5_security_key = "FORTRAN"
 
 # Level 6
 level_6_answer = "Canteen"
+
 level_6_security_key = "console.log()"
