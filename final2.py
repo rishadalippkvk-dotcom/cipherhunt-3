@@ -19,39 +19,75 @@ answers_file_path = os.path.join(os.path.dirname(__file__), "answers.toml")
 answers_data = toml.load(answers_file_path)
 answers = answers_data["questions"]
 
-QUESTIONS: List[Dict] = [
+QUESTIONS: List[Dict] =
+[
     {
-        "question": "What is the capital of France?",
-        "options": ["Berlin", "Madrid", "Paris", "Rome"],
-        "answer": "Paris",
+        "question": "🔍 i roar when silence falls .(2 words)",
+        "answer": answers["level_1_answer"],
+        "security_riddle": "The action never lies.(🛑 Be carefull 🛑)",
+        "security_key": answers["level_1_security_key"],
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "FOSS History",
+        "difficulty": "easy",
+        "points": 10
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "answer": "4",
+        "question": "🔍 An area with stacked family. (10 letters)",
+        "answer": answers["level_2_answer"],
+        "security_riddle": "I have a mouth but I don't have tongue",
+        "security_key": answers["level_2_security_key"],
+        "hint": "💡 Hint:starts with d and ends with e",
+        "security_hint": "No hints are available",
+        "category": "Tech Founders",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the largest planet in our solar system?",
-        "options": ["Earth", "Jupiter", "Mars", "Venus"],
-        "answer": "Jupiter",
+        "question": "🔍 I have seen every late comer’s best acting performance .(4 letters)",
+        "answer": answers["level_3_answer"],
+        "security_riddle": "I bent but don’t fall",
+        "security_key": answers["level_3_security_key"],
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "No hints are available",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the chemical symbol for water?",
-        "options": ["H2O", "CO2", "O2", "N2"],
-        "answer": "H2O",
+        "question": "🔍 I'm the crossroads where silence grows loud .(2 words)",
+        "answer": answers["level_4_answer"],
+        "security_riddle": "No path will lead you straight to me",
+        "security_key": answers["level_4_security_key"],
+        "hint": "💡 First word starts with 'c' and second word also starts with 'c'(second word has 6 letters)",
+        "security_hint": "No hints areavailable",
+        "category": "Tech Leaders",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the smallest country in the world?",
-        "options": ["Monaco", "Vatican City", "Liechtenstein", "San Marino"],
-        "answer": "Vatican City",
+        "question": "🔍 I’m used for questions more than people .(9 letters)",
+        "answer": answers["level_5_answer"],
+        "security_riddle": "Everyone passes me and I welcome strangers without knowing their name",
+        "security_key": answers["level_5_security_key"],
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "Programming Languages",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the tallest mountain in the world?",
-        "options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
-        "answer": "Everest",
-    },
+        "question": "🔍 A place where time behaves in strange .(7 letters)",
+        "answer": answers["level_6_answer"],
+        "security_riddle": "Between one spin and one swing",
+        "security_key": answers["level_6_security_key"],
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "Programming",
+        "difficulty": "hard",
+        "points": 20
+    }
 ]
-
 # ═══════════════════════════════════════════════════════════════════════════════
 # DJANGO API INTEGRATION
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -3546,3 +3582,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
